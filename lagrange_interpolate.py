@@ -1,10 +1,8 @@
 # Lagrange interpolation 
+from product_poly import product_poly
+from sum_poly import sum_poly
+
 def interpolate():
-    """    Perform Lagrange interpolation on a set of points.
-    
-    Returns:
-        list: Coefficients of the interpolating polynomial.
-    """
     points = [(0, 1), (1, 2), (2, 3)]  # Example points
     n = len(points)
     coeffs = [0] * n
@@ -24,6 +22,6 @@ def interpolate():
     return coeffs           
 # Example usage:
 # print(interpolate())  # Output: Coefficients of the interpolating polynomial
-print(interpolate())  # Example usage
+print(f"after interpolating: {interpolate()}")  # Example usage
 # Output: Coefficients of the interpolating polynomial
 # This will print the coefficients of the polynomial that passes through the given points.      
