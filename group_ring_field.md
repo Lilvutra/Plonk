@@ -55,3 +55,4 @@ Group: You have one reversible action (like walking forward/back on a number lin
 Ring: You have two actions (add & multiply), but multiplication might not always be reversible.
 
 Field: You have two actions and both are always reversible (except multiplying by 0).
+

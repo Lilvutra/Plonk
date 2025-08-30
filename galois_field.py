@@ -1,9 +1,8 @@
 #Construct Galois Field 
 #Galois Field is a finite field, which means it has a finite number of elements.
 #It is denoted as GF(p^n) where p is a prime number and n is a positive integer.
-#In this implementation, we will create a Galois Field with integer elements.
+#In this implementation, we will create a Galois Field with integer elements and polynomial elements.
 #We will implement addition, multiplication, and inverse operations in the Galois Field.
-#This is useful in cryptography, error correction codes, and other applications.
 
 # With integer 
 
@@ -15,7 +14,7 @@ class int_galois_field:
     
     def add(self, a, b):
         return (a+b) % self.p
-    
+   
     def multiply(self, a, b):
         return (a*b) % self.p
     

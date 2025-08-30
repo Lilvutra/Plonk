@@ -1,4 +1,4 @@
-# Lagrange interpolation 
+# Lagrange interpolation to approximate a polynomial
 from product_poly import product_poly
 from sum_poly import sum_poly
 

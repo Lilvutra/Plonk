@@ -39,7 +39,7 @@ def divide_poly(poly1, poly2):
 # Example usage:
 # poly1 = [1, 2, 3]  # Represents 1 + 2x + 3x^2
 # poly2 = [1, 1]     # Represents 1 + x
-# print(devide_poly(poly1, poly2))  # Output: [1.0, 1.0] which represents x + 1
-print(devide_poly([1, 2, 3], [1, 1]))  # Example usage
+# print(divide_poly(poly1, poly2))  # Output: [1.0, 1.0] which represents x + 1
+print(divide_poly([1, 2, 3], [1, 1]))  # Example usage
 # Output: [1.0, 1.0] which represents x + 1
         

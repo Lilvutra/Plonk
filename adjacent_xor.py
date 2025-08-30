@@ -1,3 +1,5 @@
+#codeforces problem: Transforming an array with XOR operations
+
 def transform_with_forward_backward(a, b):
     n = len(a)
     a = a[:]  # make a copy so we don't mutate input
